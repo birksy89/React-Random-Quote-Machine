@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "React-Random-Quote-Machine",
+  "homepage": "https://birksy89.github.io/React-Random-Quote-Machine",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -7,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.15.0",
+    "gh-pages": "^0.12.0",
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.2"
@@ -15,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+      "deploy": "npm run build&&gh-pages -d build"
   }
 }
